@@ -22,7 +22,15 @@ Then, once you have the theme extracted, you can add it to your site's `config.t
 
 ```toml
 theme = "dario"
+
+[menus]
+  [[menus.main]]
+    name = "About me"
+    url = "/about/"
+    weight = 10
 ```
+
+About me page content needs to be added `content/about/index.md`.
 
 ## Configuration
 
